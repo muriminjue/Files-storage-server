@@ -5,8 +5,8 @@ const controller = require("./controller")
 
 router.get("/users", controller.getusers)
 router.post("/users", controller.adduser)
-router.post("/uploadfile", controller.uploadfile)
-router.delete("/user", controller.deluser)
+router.post("/uploadfile/:userkey", controller.uploadfile)
+router.delete("/user/:userkey", controller.deluser)
 
 
 module.exports= router
