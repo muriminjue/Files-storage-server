@@ -109,3 +109,6 @@ dist
 # db migrations
 prisma/migrations
 prisma/*.db
+
+# node module list
+package-lock.json
