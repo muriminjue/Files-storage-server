@@ -1,0 +1,31 @@
+{
+  "name": "file-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muriminjue/crosstech-file-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muriminjue/crosstech-file-server/issues"
+  },
+  "homepage": "https://github.com/muriminjue/crosstech-file-server#readme",
+  "dependencies": {
+    "@prisma/client": "^3.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "nodemailer": "^6.7.2",
+    "randomstring": "^1.2.1"
+  },
+  "devDependencies": {
+    "prisma": "^3.6.0"
+  }
+}
